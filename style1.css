@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 90%;
+    max-width: 960px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #fff000;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 2px 0px #000;
+}
+
+span {
+    display: block;
+    height: inherit;
+    width: 150px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #999 0%, #990 50%, #990000 52%, #000099 100%);
+    border-radius: 10px;
+    transition-property: width;
+    transition-duration: 3s;
+}
+
+div:hover span {
+   width: 90%;
+    transition-property: width;
+    transition-duration: 3s;
+}
